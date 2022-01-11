@@ -44,16 +44,19 @@ pip install flask
 Update  the image directory path in the maintrain_brain.py and mainTrain.py file
 **The directory path in the mainTrain.py file should be of skin cancer folder**
 **The directory path in the mainTrain_brain.py file should be of Brain MRI Scans folder**
-
+<img width="956" alt="Screenshot 2022-01-11 161949" src="https://user-images.githubusercontent.com/66179774/148930901-8a91f730-114e-48b0-b5e5-aa22de422368.png">
 **Dont forget to use forward slash in the directory path as shown in the image below or else would result in a error**
 ## Step Five
 **Training the Model**
 Run the MainTrain_Brain.py and MainTrain.py files one by one.
-
+<img width="287" alt="Screenshot 2022-01-11 162929" src="https://user-images.githubusercontent.com/66179774/148931012-3633e5dc-d470-4538-bee2-4b5135e6b72b.png">
 **The Maintest files can be used for testing the output result**
 
 ## Step Six 
 Run the App.py file.
 **The Model will be loaded on a local server at http://127.0.0.1:5000/**
+<img width="958" alt="Screenshot 2022-01-11 162837" src="https://user-images.githubusercontent.com/66179774/148931102-55e80e13-f214-4f79-9420-9d597643f78b.png">
 ## Step Seven
 **Upload the Test Images to get the Output**
+
+<img width="955" alt="Screenshot 2022-01-11 162747" src="https://user-images.githubusercontent.com/66179774/148931208-96cf937a-f967-4988-8120-5b0a33739b34.png">
