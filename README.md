@@ -24,6 +24,36 @@ A Webapp to detect Skin and Brain Tumor using dermoscopic images and  MRI scans 
 Download, Extract and open this project using a code editor
 ## Step Three
 Installation of the Libraries
+<img width="960" alt="Screenshot 2022-01-11 161107" src="https://user-images.githubusercontent.com/66179774/148928162-e2d50a0d-bb2a-4993-95ab-ac68d785ae05.png">
 ```
 pip install opencv-python
 ```
+```
+pip install pillow
+```
+```
+pip install sklearn
+```
+```
+pip install tensorflow
+```
+```
+pip install flask
+```
+## Step Four
+Update  the image directory path in the maintrain_brain.py and mainTrain.py file
+**The directory path in the mainTrain.py file should be of skin cancer folder**
+**The directory path in the mainTrain_brain.py file should be of Brain MRI Scans folder**
+
+**Dont forget to use forward slash in the directory path as shown in the image below or else would result in a error**
+## Step Five
+**Training the Model**
+Run the MainTrain_Brain.py and MainTrain.py files one by one.
+
+**The Maintest files can be used for testing the output result**
+
+## Step Six 
+Run the App.py file.
+**The Model will be loaded on a local server at http://127.0.0.1:5000/**
+## Step Seven
+**Upload the Test Images to get the Output**
